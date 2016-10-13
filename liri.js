@@ -10,7 +10,7 @@ var action;
 var value;
 
 
-// console.log("oyeee");
+
 	 inquirer.prompt([
 
 	 {
@@ -126,5 +126,11 @@ request(queryUrl,function (error, response, body) {
 		movie(array[1]);
 	}
 		
-})
+});
+ 	};
+
+ 	function tweets(){
+ 		var fs= require('fs');
+
+ 	fs.readFile()
  	}
